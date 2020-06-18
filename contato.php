@@ -5,7 +5,7 @@
 					<h2 class="nobottommargin t300 ls1">Faça seu Orçamento</h2>
 					<div class="divider divider-center"><i class="icon-cloud"></i></div>
 				</div>
-
+					
 				<div class="divcenter topmargin" style="max-width: 850px;">							
 
 					<div class="contact-widget">
@@ -42,7 +42,7 @@
 							</div>
 
 							<div class="col_one_third col_last">
-								<select name="template-contactform-service" id="template-contactform-service" class="sm-form-control border-form-control">
+								<select name="template-contactform-reference" id="template-contactform-reference" class="sm-form-control border-form-control">
 									<option disabled selected>Como nos conheceu?</option>
 									<option value="google">Google</option>
 									<option value="indicacao">Indicação</option>

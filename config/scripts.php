@@ -152,25 +152,20 @@
 
 
 
+	<script src="assets/js/jquery.maskedinput.js"></script>
 	<script>
-//contservices
-var $ = jQuery.noConflict();
+		var $ = jQuery.noConflict();
+		$('#phone').mask('(00) 0000-00009');
+		$('#phone').blur(function(event) {
+          if($(this).val().length == 14){ // Celular com 9 dígitos + 2 dígitos DDD e 4 da máscara
+          	$('#phone').mask('(00) 0000-0000');
+          } else {
+          	$('#phone').mask('(00) 90000-0000');
+          }
+      });
 
-$(document).on("click", "#button-service", function() {
+	</script>
 
-	let id = $(this).data('id');
-	var url = 'pages/'+id+'.php';
-	// console.log(url);
-	$("#box-services").css('filter', 'blur(4px)');
-	$("#contservices").show('slow');
-	$.get(url, $("#contservices").html('Carregando...'), function(data) {
-		// console.log(data);
-		$("#contservices").html(data);
-	});
-});
-
-</script>
-
-<?php if($tawkto){
-	echo $tawkto;
-}?>
+	<?php if($tawkto){
+		echo $tawkto;
+	}?>

@@ -11,10 +11,12 @@ $toemails[] = array(
 			);
 
 // Form Processing Messages
-$message_success = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+$message_success = 'Recebemos sua mensagem com sucesso e entraremos em contato com você o mais breve possível.';
 
 // Add this only if you use reCaptcha with your Contact Forms
 $recaptcha_secret = 'your-recaptcha-secret-key'; // Your reCaptcha Secret
+
+$dateatual = date('d-m-Y H:i');
 
 $mail = new PHPMailer();
 
@@ -27,10 +29,12 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		$name = isset( $_POST['template-contactform-name'] ) ? $_POST['template-contactform-name'] : '';
 		$email = isset( $_POST['template-contactform-email'] ) ? $_POST['template-contactform-email'] : '';
 		$phone = isset( $_POST['template-contactform-phone'] ) ? $_POST['template-contactform-phone'] : '';
+		$services = isset( $_POST['template-contactform-services'] ) ? $_POST['template-contactform-services'] : '';
+		$reference = isset( $_POST['template-contactform-reference'] ) ? $_POST['template-contactform-reference'] : '';
 		$subject = isset( $_POST['template-contactform-subject'] ) ? $_POST['template-contactform-subject'] : '';
 		$message = isset( $_POST['template-contactform-message'] ) ? $_POST['template-contactform-message'] : '';
 
-		$subject = isset($subject) ? $subject : 'New Message From Contact Form';
+		$subject = isset($subject) ? $subject : 'Nova mensagem do formulário de contato - '.$site_name;
 
 		$botcheck = $_POST['template-contactform-botcheck'];
 
@@ -43,14 +47,16 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			}
 			$mail->Subject = $subject;
 
-			$name = isset($name) ? "Name: $name<br><br>" : '';
-			$email = isset($email) ? "Email: $email<br><br>" : '';
-			$phone = isset($phone) ? "Phone: $phone<br><br>" : '';
-			$message = isset($message) ? "Message: $message<br><br>" : '';
+			$name = isset($name) ? "Nome: $name<br><br>" : '';
+			$email = isset($email) ? "E-mail: $email<br><br>" : '';
+			$phone = isset($phone) ? "Telefone: $phone<br><br>" : '';
+			$services = isset($services) ? "Telefone: $services<br><br>" : '';
+			$reference = isset($reference) ? "Telefone: $reference<br><br>" : '';
+			$message = isset($message) ? "Mensagem: $message<br><br>Data: $dateatual<br><br>" : '';
 
-			$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
+			$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>Este formulário foi enviado de: ' . $_SERVER['HTTP_REFERER'] : '';
 
-			$body = "$name $email $phone $message $referrer";
+			$body = "$name $email $phone $services $reference $message $referrer";
 
 			// Runs only when File Field is present in the Contact Form
 			if ( isset( $_FILES['template-contactform-file'] ) && $_FILES['template-contactform-file']['error'] == UPLOAD_ERR_OK ) {
@@ -66,7 +72,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 				$g_response = json_decode( $response );
 
 				if ( $g_response->success !== true ) {
-					echo '{ "alert": "error", "message": "Captcha not Validated! Please Try Again." }';
+					echo '{ "alert": "error", "message": "Captcha não validado! Por favor, tente novamente." }';
 					die;
 				}
 			}
@@ -77,16 +83,16 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			if( $sendEmail == true ):
 				echo '{ "alert": "success", "message": "' . $message_success . '" }';
 			else:
-				echo '{ "alert": "error", "message": "Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '" }';
+				echo '{ "alert": "error", "message": "Não foi possível enviar o <strong>e-mail</strong> devido a algum erro inesperado. Tente novamente mais tarde. <br /> <br /> <strong> Razão: </strong><br />' . $mail->ErrorInfo . '" }';
 			endif;
 		} else {
-			echo '{ "alert": "error", "message": "Bot <strong>Detected</strong>.! Clean yourself Botster.!" }';
+			echo '{ "alert": "error", "message": "Bot <strong>Detectado</strong>.! Limpe-se Botster!" }';
 		}
 	} else {
-		echo '{ "alert": "error", "message": "Please <strong>Fill up</strong> all the Fields and Try Again." }';
+		echo '{ "alert": "error", "message": "<strong>Preencha</strong> todos os campos e tente novamente." }';
 	}
 } else {
-	echo '{ "alert": "error", "message": "An <strong>unexpected error</strong> occured. Please Try Again later." }';
+	echo '{ "alert": "error", "message": "Ocorreu um <strong>erro inesperado</strong>. Por favor, tente novamente mais tarde." }';
 }
 
 ?>
