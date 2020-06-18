@@ -1,0 +1,36 @@
+#contservices{
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f2f2f2c7;
+}
+#logo img {
+    padding: 5px 0;
+}
+body.dark, .dark #wrapper, .dark #content, .dark .shop-quick-view-ajax, .dark .portfolio-ajax-modal, .dark .modal-content, .dark .css3-spinner, body.dark #side-panel, body #side-panel.dark{
+	background-color: #494E6B;
+}
+.feature-box a{
+	color:#494E6B;
+}
+#primary-menu ul li > a{
+	color:#494E6B;
+}
+#top-search a, #top-cart a, #side-panel-trigger a, #top-account a{
+	color:#494E6B;	
+}
+.lead{
+	font-weight: 500;
+}
+@media (min-width: 768px){
+	.lead {
+	    font-size: 20px;
+	}
+}
+
+#servicos #section-services{
+	padding-bottom: 0;
+}
