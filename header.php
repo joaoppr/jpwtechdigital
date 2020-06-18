@@ -114,7 +114,7 @@ require_once('config/settings.php');
 							<li><a href="<?php if($file != 'home.php'){echo 'contato'; }else{ echo '#'; } ?>" data-href="#section-contact"><div>Contato</div></a></li>
 						</ul>
 
-						<div id="side-panel-trigger" class="side-panel-trigger"><a href="#"><i class="icon-reorder"></i></a></div>
+						<div id="side-panel-trigger" class="side-panel-trigger"><a href="#"><i class="icon-rocket"></i></a></div>
 
 					</nav><!-- #primary-menu end -->
 
