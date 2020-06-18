@@ -23,7 +23,7 @@
 			</div>
 			<div class="col-md-7 text-left text-md-left">
 				<div class="heading-block bottommargin-sm">
-					<h4>Com é composto o domínio?</h4>
+					<h4>Como é composto o domínio?</h4>
 				</div>
 				<p>É importante que seja curto, amigável e fácil de lembrar, ele é composto por três partes:</p>
 				<p><b>Nome - Categoria e Pais</b></p>
