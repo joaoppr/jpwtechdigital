@@ -16,8 +16,8 @@ $file = $url[0].'.php';
 /************************************/
 // Textos Gerais
 /************************************/
-$title_page = 'JPW Tech - Sua solução para evolução digital';
-$site_name = 'JPW Tech';
+$title_page = 'JPW TechDigital - Sua solução para evolução digital';
+$site_name = 'JPW TechDigital';
 $site_description = 'Somos uma empresa de tecnologia digital e inovação, comprometida em entregar os melhores resultados aos nossos clientes.
 Focados em entregar soluções multiplataformas e ajudar sua empresa a se focar em seus próprios clientes em busca de melhores resultados.';
 $site_keywords = 'jpw tech, jpw, tech, solucao, evolucao, digital';
