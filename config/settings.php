@@ -28,17 +28,17 @@ $site_keywords = 'jpw tech, jpw, tech, solucao, evolucao, digital';
 // Dados de Contato
 /************************************/
 $show_address = 1; // 1= exibe endereço ou 0= não exibe endereço
-$address = 'Endereço Completo';
-$number = '100';
-$cep = '14077220';
-$distric = 'Bairro';
-$city = 'Ribeirão Preto';
+$address = 'Rua Gastão do Rego Monteiro';
+$number = '666';
+$cep = '05594030';
+$distric = 'Jd. Bonfiglioli';
+$city = 'São Paulo';
 $state = 'São Paulo';
-$complement = 'Casa 1 - Ap 101';
+$complement = 'ap 211';
 
-$phone = '(16) 9.9274-7526';
+$phone = '(11) 9.8144-1704';
 $cellphone = ''; // opcional - caso não houver deixe em branco com aspas simples '';
-$email = 'contato@innsystem.com.br';
+$email = 'contato@jpwtechdigital.com.br';
 
 
 
