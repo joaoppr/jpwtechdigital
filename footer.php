@@ -4,7 +4,8 @@
 
 <div id="copyrights">
 	<div class="container center clearfix">
-		Todos os Direitos Reservados @ <b><?=$site_name;?></b> CNPJ: 
+		Todos os Direitos Reservados @ <b><?=$site_name;?></b> 
+		CNPJ: 37.121.967/0001-31
 	</div>
 </div>
 
