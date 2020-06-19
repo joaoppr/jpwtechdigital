@@ -4,7 +4,7 @@
 
 <div id="copyrights">
 	<div class="container center clearfix">
-		Todos os Direitos Reservados a <b><?=$site_name;?></b>
+		Todos os Direitos Reservados @ <b><?=$site_name;?></b> CNPJ: 
 	</div>
 </div>
 

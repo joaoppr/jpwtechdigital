@@ -10,7 +10,7 @@
 						<a href="#"><img src="_galerias/avatares/3.png" alt="Customer Testimonails"></a>
 					</div>
 					<div class="testi-content">
-						<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
+						<p>Similique.... fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
 						<div class="testi-meta">
 							Steve Jobs
 							<span>Apple Inc.</span>
