@@ -17,7 +17,7 @@
 								<a href="#"><i class="icon-et-mobile"></i></a>
 							</div>
 							<h3>Desenvolvimento de Sites</h3>
-							<a href="desenvolvimento-sites.php">Conheça mais</a>
+							<a href="desenvolvimento-sites">Conheça mais</a>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6 col-padding">
