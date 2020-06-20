@@ -7,6 +7,7 @@
 // NÃO ALTERAR NENHUMA INFORMACAO
 $url = (isset($_GET['url'])) ? $_GET['url']:'home';
 $url = array_filter(explode('/',$url));
+var_dump($url);
 
 $classbody = $url[0];
 $file = $url[0].'.php';
