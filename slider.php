@@ -72,7 +72,7 @@
 							data-elementdelay="0.01"
 							data-endelementdelay="0.1"
 							data-endspeed="1000"
-							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Conheça mais</span><i class="icon-angle-right"></i></a></div>
+							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="campanha-google-ads" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Conheça mais</span><i class="icon-angle-right"></i></a></div>
 
 						</li>
 						<!-- #1 - SLIDE  -->
@@ -170,7 +170,7 @@
 							data-elementdelay="0.01"
 							data-endelementdelay="0.1"
 							data-endspeed="1000"
-							data-endeasing="Power4.easeIn"><a href="#" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Conheça Mais</span> <i class="icon-angle-right"></i></a></div>
+							data-endeasing="Power4.easeIn"><a href="desenvolvimento-stes" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Conheça Mais</span> <i class="icon-angle-right"></i></a></div>
 
 						</li>
 						<!-- #2 - SLIDE  -->
@@ -237,7 +237,7 @@
 							data-elementdelay="0.01"
 							data-endelementdelay="0.1"
 							data-endspeed="1000"
-							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Conheça mais</span><i class="icon-angle-right"></i></a></div>
+							data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="otimizacao-site-seo" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Conheça mais</span><i class="icon-angle-right"></i></a></div>
 
 						</li>
 						<!-- #3 - SLIDE  -->
