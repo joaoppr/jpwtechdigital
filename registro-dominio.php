@@ -1,3 +1,4 @@
+<?php require_once('header.php'); ?>
 <div class="page-section nobottompadding">
 	<div class="container">
 		<div class="divcenter center bottommargin font-body" style="max-width: 650px;">
@@ -63,3 +64,4 @@
 </div>
 
 <?php require_once('servicos-box.php'); ?>
+<?php require_once('footer.php'); ?>
