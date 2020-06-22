@@ -19,8 +19,10 @@ $file = $url[0].'.php';
 $title_page = 'JPW TechDigital - Sua solução para evolução digital';
 $site_name = 'JPW TechDigital';
 $site_description = 'Somos uma empresa de tecnologia digital e inovação, comprometida em entregar os melhores resultados aos nossos clientes.
-Focados em entregar soluções multiplataformas e ajudar sua empresa a se focar em seus próprios clientes em busca de melhores resultados.';
-$site_keywords = 'jpw tech, jpw, tech, solucao, evolucao, digital';
+Focados em entregar soluções multiplataformas e ajudar sua empresa a se focar em seus próprios clientes em busca de melhores resultados.
+Desenvolvemos sua loja virtual, e-commerce, gerenciamos sua campanha google ads, aumentaremos suas vendas, gerenciamos toda sua campanha de marketing inbound,
+criação seu logo, seu cartão de visita, impulsionamos suas redes sociais';
+$site_keywords = 'jpw tech, jpw, tech, solucao, evolucao, digital, google ads, adsword, desenvolvimento de sites, SEO, marketing de conteudo, sites empresariais, venda mais, loja virutal, e-commerce';
 
 
 
@@ -57,7 +59,7 @@ $instagram = 'https://instagrarm.com/page';
 /************************************/
 
 // Google Analytics - Estatísticas
-$google_analytics = "";
+$google_analytics = "UA-169354743-1";
 
 // Tawk.To - Chat Online
 $tawkto = "<!--Start of Tawk.to Script-->
