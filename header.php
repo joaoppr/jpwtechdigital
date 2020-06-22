@@ -16,6 +16,9 @@ require_once('config/settings.php');
 	gtag('config', 'UA-169354743-1');
 	</script>
 
+	<!-- Global Search Console -->
+	<meta name="google-site-verification" content="YGt_XaVd8_lEG1ypLNXLh6ZBOUbXimQHoUzBbUdqTOM" />
+
 	<!-- Document Title
 	============================================= -->
 	<title><?=$title_page;?></title>
