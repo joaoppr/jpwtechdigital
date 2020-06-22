@@ -1,20 +1,4 @@
-<link rel="stylesheet" href="assets/css/bootstrap.css?<?=rand();?>" type="text/css" />
-<link rel="stylesheet" href="assets/css/style.css?<?=rand();?>" type="text/css" />
-
-<!-- One Page Module Specific Stylesheet -->
-<link rel="stylesheet" href="assets/css/onepage.css?<?=rand();?>" type="text/css" />
-<!-- / -->
-
-<link rel="stylesheet" href="assets/css/dark.css?<?=rand();?>" type="text/css" />
-<link rel="stylesheet" href="assets/css/font-icons.css?<?=rand();?>" type="text/css" />
-<link rel="stylesheet" href="assets/css/et-line.css?<?=rand();?>" type="text/css" />
-<link rel="stylesheet" href="assets/css/animate.css?<?=rand();?>" type="text/css" />
-<link rel="stylesheet" href="assets/css/magnific-popup.css?<?=rand();?>" type="text/css" />
-
-<link rel="stylesheet" href="assets/css/fonts.css?<?=rand();?>" type="text/css" />
-<link rel="stylesheet" href="assets/css/custom.css?<?=rand();?>" type="text/css" />
-
-<link rel="stylesheet" href="assets/css/responsive.css?<?=rand();?>" type="text/css" />
+<?php require_once('header.php'); ?>
 
 <div class="page-section nobottompadding">
 	<div class="container">
@@ -104,3 +88,4 @@
 </div>
 
 <?php require_once('servicos-box.php'); ?>
+<?php require_once('footer.php'); ?>
