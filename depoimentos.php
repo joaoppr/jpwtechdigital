@@ -65,6 +65,18 @@
 						</div>
 					</div>
 				</div>
+				<div class="slide">
+					<div class="testi-image">
+						<a href="#"><img src="_galerias/avatares/tiautiau.png" alt="Customer Testimonails"></a>
+					</div>
+					<div class="testi-content">
+						<p>Sem duvida a JPW foi um grande drive para alanvancarmos nossa visibilidade e o Lead de novos clientes. Hoje alcançamos os mercados desejados com facilidade devido a excelente gestão de nossas campanhas.</p>
+						<div class="testi-meta">
+							William Rodrigues
+							<span>Tiau Tiau</span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
