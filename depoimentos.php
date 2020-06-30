@@ -31,7 +31,7 @@
 				</div>
 				<div class="slide">
 					<div class="testi-image">
-						<a href="#"><img src="_galerias/avatares/Floranatus.png" alt="Customer Testimonails"></a>
+						<a href="#"><img src="_galerias/avatares/Floranatus.jpg" alt="Customer Testimonails"></a>
 					</div>
 					<div class="testi-content">
 						<p>Com a JPW, avançamos para o e-commerce, buscando um novo canal de vendas e o aumento de nosso faturamento. Tambem estamos satisfeitos com o agenciamento de nossas campanhas e todo o Marketing InBound que hoje nos faz expor positivamente nossa marca e aumentar nossas vendas</p>
@@ -43,12 +43,12 @@
 				</div>
 				<div class="slide">
 					<div class="testi-image">
-						<a href="#"><img src="_galerias/avatares/casaRustica.png" alt="Customer Testimonails"></a>
+						<a href="#"><img src="_galerias/avatares/CasaRustica.png" alt="Customer Testimonails"></a>
 					</div>
 					<div class="testi-content">
 						<p>Temos uma grande satisfação de sermos parceiros da JPW, que alem de nos alancar no segmento de e-commerce, tambem nos direciona a todo momento no aumento de nossas vendas com o agenciamento de nossas campanhas google ads.</p>
 						<div class="testi-meta">
-							Pedro e Deco
+							Paulo e Deco
 							<span>Moveis Casa Rustica</span>
 						</div>
 					</div>
