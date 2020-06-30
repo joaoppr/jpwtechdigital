@@ -7,7 +7,7 @@
 			<div class="slider-wrap">
 				<div class="slide">
 					<div class="testi-image">
-						<a href="#"><img src="_galerias/avatares/webcup.png" alt="Customer Testimonails"></a>
+						<a href="#"><img src="_galerias/avatares/webcup.jpg" alt="Customer Testimonails"></a>
 					</div>
 					<div class="testi-content">
 						<p>Buscamos junto a JPW ampliar nossa visibilidade internacional de marca. Atingindo novos mercados, nos EUA, Canada, Inglaterra, India de China.</p>
