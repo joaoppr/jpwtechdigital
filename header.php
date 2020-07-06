@@ -22,6 +22,17 @@ require_once('config/settings.php');
 	<!-- Document Title
 	============================================= -->
 	<title><?=$title_page;?></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="<?=$site_description;?>">
+	<meta name="keywords" content="<?=$site_keywords;?>" />
+	<meta property="og:title" content="<?=$title_page;?>" />
+	<meta property="og:description" content="<?=$site_description;?>" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://jpwtechdigital.com.br" />
+	<meta property="og:image" content="https://jpwtechdigital.com.br/images/facebook.png" />
+	<meta property="og:locale" content="pt_BR"/>
+	<meta property="og:type" content="website"/>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<!-- Stylesheets

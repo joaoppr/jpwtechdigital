@@ -1,0 +1,4 @@
+User-agent: *
+
+Allow: /
+Sitemap: http://jpwtechdigital.com.br/sitemap.xml
