@@ -1318,8 +1318,11 @@ var SEMICOLON = SEMICOLON || {};
 		},
 
 		onepageScroller: function(){
-			$onePageMenuEl.find('li').removeClass('current');
-			$onePageMenuEl.find('a[data-href="#' + SEMICOLON.header.onePageCurrentSection() + '"]').parent('li').addClass('current');
+			var url_atual = window.location.href;
+			if(url_atual === 'http://localhost/jpwtechdigital/'){
+				$onePageMenuEl.find('li').removeClass('current');
+				$onePageMenuEl.find('a[data-href="#' + SEMICOLON.header.onePageCurrentSection() + '"]').parent('li').addClass('current');
+			}
 		},
 
 		onePageCurrentSection: function(){

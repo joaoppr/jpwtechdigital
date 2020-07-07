@@ -38,23 +38,23 @@ require_once('config/settings.php');
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="assets/css/bootstrap.css?<?=rand();?>" type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css?<?=rand();?>" type="text/css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css?1" type="text/css" />
 
 	<!-- One Page Module Specific Stylesheet -->
-	<link rel="stylesheet" href="assets/css/onepage.css?<?=rand();?>" type="text/css" />
+	<link rel="stylesheet" href="assets/css/onepage.css?1" type="text/css" />
 	<!-- / -->
 
-	<link rel="stylesheet" href="assets/css/dark.css?<?=rand();?>" type="text/css" />
-	<link rel="stylesheet" href="assets/css/font-icons.css?<?=rand();?>" type="text/css" />
-	<link rel="stylesheet" href="assets/css/et-line.css?<?=rand();?>" type="text/css" />
-	<link rel="stylesheet" href="assets/css/animate.css?<?=rand();?>" type="text/css" />
-	<link rel="stylesheet" href="assets/css/magnific-popup.css?<?=rand();?>" type="text/css" />
+	<link rel="stylesheet" href="assets/css/dark.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/font-icons.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/et-line.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/animate.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/magnific-popup.css?1" type="text/css" />
 
-	<link rel="stylesheet" href="assets/css/fonts.css?<?=rand();?>" type="text/css" />
-	<link rel="stylesheet" href="assets/css/custom.css?<?=rand();?>" type="text/css" />
+	<link rel="stylesheet" href="assets/css/fonts.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/custom.css?1" type="text/css" />
 
-	<link rel="stylesheet" href="assets/css/responsive.css?<?=rand();?>" type="text/css" />
+	<link rel="stylesheet" href="assets/css/responsive.css?1" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -131,7 +131,7 @@ require_once('config/settings.php');
 					<nav id="primary-menu">
 
 						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
-							<li><a href="<?php if($file != 'home.php'){echo '/jpwtech/'; }else{ echo '#'; } ?>" data-href="#wrapper"><div>Início</div></a></li>
+							<li><a href="<?php if($file != 'home.php'){echo '/'; }else{ echo '#'; } ?>" data-href="#wrapper"><div>Início</div></a></li>
 							<li><a href="<?php if($file != 'home.php'){echo 'quem-somos'; }else{ echo '#'; } ?>" data-href="#section-about"><div>Quem Somos</div></a></li>
 							<li><a href="<?php if($file != 'home.php'){echo 'servicos'; }else{ echo '#'; } ?>" data-href="#section-services"><div>Serviços</div></a></li>
 							<li><a href="<?php if($file != 'home.php'){echo 'portfolio'; }else{ echo '#'; } ?>" data-href="#section-works"><div>Portfólio</div></a></li>

@@ -3,13 +3,9 @@
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/plugins.js?1"></script>
 
-
 	<!-- Footer Scripts
 	============================================= -->
-	<script type="text/javascript" src="assets/js/functions.js"></script>
-
-
-
+	<script type="text/javascript" src="assets/js/functions.js?1"></script>
 
 	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
 	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
@@ -154,9 +150,9 @@
 
 	<script src="assets/js/jquery.maskedinput.js"></script>
 	<script>
-		var $ = jQuery.noConflict();
-		$('#phone').mask('(00) 0000-00009');
-		$('#phone').blur(function(event) {
+	var $ = jQuery.noConflict();
+	$('#phone').mask('(00) 0000-00009');
+	$('#phone').blur(function(event) {
           if($(this).val().length == 14){ // Celular com 9 dígitos + 2 dígitos DDD e 4 da máscara
           	$('#phone').mask('(00) 0000-0000');
           } else {
