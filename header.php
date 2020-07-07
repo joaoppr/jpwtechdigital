@@ -38,23 +38,23 @@ require_once('config/settings.php');
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="assets/css/bootstrap.css?1" type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.css?2" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css?2" type="text/css" />
 
 	<!-- One Page Module Specific Stylesheet -->
-	<link rel="stylesheet" href="assets/css/onepage.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/onepage.css?2" type="text/css" />
 	<!-- / -->
 
-	<link rel="stylesheet" href="assets/css/dark.css?1" type="text/css" />
-	<link rel="stylesheet" href="assets/css/font-icons.css?1" type="text/css" />
-	<link rel="stylesheet" href="assets/css/et-line.css?1" type="text/css" />
-	<link rel="stylesheet" href="assets/css/animate.css?1" type="text/css" />
-	<link rel="stylesheet" href="assets/css/magnific-popup.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/dark.css?2" type="text/css" />
+	<link rel="stylesheet" href="assets/css/font-icons.css?2" type="text/css" />
+	<link rel="stylesheet" href="assets/css/et-line.css?2" type="text/css" />
+	<link rel="stylesheet" href="assets/css/animate.css?2" type="text/css" />
+	<link rel="stylesheet" href="assets/css/magnific-popup.css?2" type="text/css" />
 
-	<link rel="stylesheet" href="assets/css/fonts.css?1" type="text/css" />
-	<link rel="stylesheet" href="assets/css/custom.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/fonts.css?2" type="text/css" />
+	<link rel="stylesheet" href="assets/css/custom.css?2" type="text/css" />
 
-	<link rel="stylesheet" href="assets/css/responsive.css?1" type="text/css" />
+	<link rel="stylesheet" href="assets/css/responsive.css?2" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>

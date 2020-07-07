@@ -661,7 +661,8 @@ body.stretched .container-fullwidth {
 	display: block;
 	width: 100%;
 	height: auto;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	overflow: initial;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -3133,7 +3134,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	cursor: pointer;
 	z-index: 10;
 	top: 50%;
-	left: 0;
+	left: -100px;
 	margin-top: -26px;
 	background-color: rgba(0,0,0,0.3);
 	width: 52px;
@@ -3178,7 +3179,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 .flex-next,
 .nivo-nextNav {
 	left: auto;
-	right: 0;
+	right: -100px;
 	border-radius: 3px 0 0 3px;
 }
 

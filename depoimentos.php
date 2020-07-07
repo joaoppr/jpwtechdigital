@@ -2,7 +2,7 @@
 
 	<h4 class="uppercase center">Depoimento de <span>Clientes</span></h4>
 
-	<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
+	<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="true">
 		<div class="flexslider">
 			<div class="slider-wrap">
 				<div class="slide">
