@@ -29,7 +29,7 @@ require_once('config/settings.php');
 	<meta property="og:title" content="<?=$title_page;?>" />
 	<meta property="og:description" content="<?=$site_description;?>" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://jpwtechdigital.com.br" />
+	<meta property="og:url" content="https://jpwtechdigital.com.br" />
 	<meta property="og:image" content="https://jpwtechdigital.com.br/images/facebook.png" />
 	<meta property="og:locale" content="pt_BR"/>
 	<meta property="og:type" content="website"/>
@@ -37,7 +37,7 @@ require_once('config/settings.php');
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="assets/css/bootstrap.css?1" type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css?1" type="text/css" />
 
@@ -57,7 +57,7 @@ require_once('config/settings.php');
 	<link rel="stylesheet" href="assets/css/responsive.css?1" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
-		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 		<![endif]-->
 
 		<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
