@@ -5,9 +5,13 @@
 /************************************/
 
 // NÃO ALTERAR NENHUMA INFORMACAO
-$url = (isset($_GET['url'])) ? $_GET['url']:'home';
+if($_GET['url'] === ''){
+	$url = 'home';
+}else{
+	$url = $_GET['url'];
+}
+// $url = (isset()) ? $_GET['url'] : 'home';
 $url = array_filter(explode('/',$url));
-
 $classbody = $url[0];
 $file = $url[0].'.php';
 // NÃO ALTERAR NENHUMA INFORMACAO
