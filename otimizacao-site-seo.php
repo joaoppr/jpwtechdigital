@@ -1,4 +1,3 @@
-<?php require_once('header.php'); ?>
 <div class="page-section nobottompadding">
 	<div class="container">
 		<div class="divcenter center bottommargin font-body" style="max-width: 650px;">
@@ -14,7 +13,7 @@
 		</h2>
 
 		<div class="col_two_fifth nobottommargin">
-			<img src="_galerias/paginas/servicos-otimizacao-seo.jpg" alt="" class="img-responsive">
+			<img src="galerias/paginas/servicos-otimizacao-seo.jpg" alt="" class="img-responsive">
 		</div>
 
 		<div class="col_three_fifth nobottommargin col_last">
@@ -104,14 +103,4 @@
 		</div>
 	</div>
 </div>
-<div class="section dark notopmargin">
-	<div class="divcenter center" style="max-width: 900px;">
-		<h2 class="nobottommargin t300 ls1"><a href="contato" class="button button-border button-circle button-light button-large notopmargin nobottommargin" style="position: relative; top: -3px; font-weight: bold;">Solicite seu Orçamento</a></h2>
-	</div>
 </div>
-
-
-</div>
-
-<?php require_once('servicos-box.php'); ?>
-<?php require_once('footer.php'); ?>

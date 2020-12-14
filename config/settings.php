@@ -4,19 +4,6 @@
 // Configuração Geral do Site
 /************************************/
 
-// NÃO ALTERAR NENHUMA INFORMACAO
-if($_GET['url'] === ''){
-	$url = 'home';
-}else{
-	$url = $_GET['url'];
-}
-// $url = (isset()) ? $_GET['url'] : 'home';
-$url = array_filter(explode('/',$url));
-$classbody = $url[0];
-$file = $url[0].'.php';
-// NÃO ALTERAR NENHUMA INFORMACAO
-
-
 /************************************/
 // Textos Gerais
 /************************************/
@@ -42,7 +29,7 @@ $city = 'São Paulo';
 $state = 'São Paulo';
 $complement = 'ap 211';
 
-$phone = '(11) 9.8144-1704';
+$phone = '(11) 9.5284-0967';
 $cellphone = ''; // opcional - caso não houver deixe em branco com aspas simples '';
 $email = 'contato@jpwtechdigital.com.br';
 

@@ -1,4 +1,3 @@
-<?php require_once('header.php'); ?>
 <div class="page-section nobottompadding">
 	<div class="container">
 		<div class="divcenter center bottommargin font-body" style="max-width: 650px;">
@@ -20,7 +19,7 @@
 	<div class="container bottommargin-sm">
 		<div class="row align-items-center col-mb-50">
 			<div class="col-md-5">
-				<img src="_galerias/paginas/registro-dominio.png" alt="Registro de Domínio Nacional e Internacional" class="img-responsive">
+				<img src="galerias/paginas/registro-dominio.png" alt="Registro de Domínio Nacional e Internacional" class="img-responsive">
 			</div>
 			<div class="col-md-7 text-left text-md-left">
 				<div class="heading-block bottommargin-sm">
@@ -51,17 +50,8 @@
 			</div>
 
 			<div class="col-md-5">
-				<img src="_galerias/paginas/registro-dominio-internacional.jpg" alt="Registro de Domínio Nacional e Internacional" class="img-responsive">
+				<img src="galerias/paginas/registro-dominio-internacional.jpg" alt="Registro de Domínio Nacional e Internacional" class="img-responsive">
 			</div>
 		</div>	
 	</div>
-
-	<div class="section dark notopmargin">
-		<div class="divcenter center" style="max-width: 900px;">
-			<h2 class="nobottommargin t300 ls1"><a href="contato" class="button button-border button-circle button-light button-large notopmargin nobottommargin" style="position: relative; top: -3px; font-weight: bold;">Solicite seu Orçamento</a></h2>
-		</div>
-	</div>
 </div>
-
-<?php require_once('servicos-box.php'); ?>
-<?php require_once('footer.php'); ?>

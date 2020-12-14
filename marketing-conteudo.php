@@ -1,4 +1,3 @@
-<?php require_once('header.php'); ?>
 <div class="page-section nobottompadding">
 	<div class="container">
 		<div class="divcenter center bottommargin font-body" style="max-width: 650px;">
@@ -15,7 +14,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12">
-					<img src="_galerias/paginas/marketing-conteudo-pilares.png" alt="Pilares do Marketing de Conteúdo" class="img-responsive divcenter">
+					<img src="galerias/paginas/marketing-conteudo-pilares.png" alt="Pilares do Marketing de Conteúdo" class="img-responsive divcenter">
 				</div>
 			</div>
 		</div>
@@ -91,12 +90,4 @@
 			</div><!-- row -->
 		</div>
 	</div>
-	<div class="section dark notopmargin">
-		<div class="divcenter center" style="max-width: 900px;">
-			<h2 class="nobottommargin t300 ls1"><a href="contato" class="button button-border button-circle button-light button-large notopmargin nobottommargin" style="position: relative; top: -3px; font-weight: bold;">Solicite seu Orçamento</a></h2>
-		</div>
-	</div>
 </div>
-
-<?php require_once('servicos-box.php'); ?>
-<?php require_once('footer.php'); ?>

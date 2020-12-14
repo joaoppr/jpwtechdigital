@@ -53,5 +53,3 @@
 	</div>
 
 </div>
-
-<?php require_once('depoimentos.php'); ?>
