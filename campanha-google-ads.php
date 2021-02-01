@@ -87,7 +87,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 topmargin">
+				<div class="col-lg-6 col-md-6 topmargin bottommargin-sm">
 					<div class="w-100 bottommargin-md">
 						<div class="feature-box fbox-plain fbox-sm fbox-dark">
 							<div class="fbox-icon">
