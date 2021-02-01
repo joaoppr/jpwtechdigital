@@ -333,7 +333,7 @@
 
 			<div class="clear"></div>
 
-			<div class="col-xs-12 col-md-6 col-md-offset-1 bottommargin">
+			<div class="col-xs-12 col-md-6 bottommargin">
 				<div class="feature-box fbox-border fbox-effect">
 					<div class="fbox-icon">
 						<a href="/administracao-b2wads"><i class="icon-cogs i-alt"></i></a>
@@ -358,6 +358,7 @@
 				<li><a href="https://www.seopimenta.com.br/" target="_Blank"><img src="galerias/clientes/seopimenta.png" alt="SEO Pimenta"></a></li>
 				<li><a><img src="galerias/clientes/tiautiau.png" alt="Tiau Tiau"></a></li>
 				<li><a href="https://limpezadesofas.com.br/" target="_Blank"><img src="galerias/clientes/lavanderia_stylo.png" alt="Lavanderia Stylo"></a></li>
+				<li><a href="https://lavanderiazelo.com.br/" target="_Blank"><img src="galerias/clientes/lavanderia_zelo.png" alt="Lavanderia Zelo"></a></li>
 			</ul>
 		</div>
 
